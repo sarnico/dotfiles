@@ -50,3 +50,4 @@ source /usr/share/rvm/scripts/rvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
